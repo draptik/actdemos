@@ -1,9 +1,6 @@
 actdemos
 ========
 
-Demos for AjaxControlToolkit
-test
-test2
-test3
-test4
-test5
+Demos for [AjaxControlToolkit](http://www.asp.net/ajaxLibrary/AjaxControlToolkitSampleSite/Default.aspx)
+
+- [ReorderList](http://www.asp.net/ajaxLibrary/AjaxControlToolkitSampleSite/ReorderList/ReorderList.aspx): See <code>AjaxControlToolkitDemos/Pages/ReorderListDemo.aspx</code>
