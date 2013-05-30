@@ -18,7 +18,7 @@
                 <div style="background-color: yellow;" class="CssItemArea">
                     <asp:HiddenField runat="server" ID="hdfMyId" Value="<%# ((DummyViewModel)Container.DataItem).MyId %>" />
                     <asp:Label runat="server" ID="lblName" Text="<%# ((DummyViewModel)Container.DataItem).MyName %>"/>
-                    <asp:Label runat="server" ID="lblPosition" <%# ((DummyViewModel)Container.DataItem).MyPosition %>/>
+                    <asp:Label runat="server" ID="lblPosition" Text="<%# ((DummyViewModel)Container.DataItem).MyPosition %>" />
                 </div>
             </ItemTemplate>
             <DragHandleTemplate>
