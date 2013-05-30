@@ -1,0 +1,31 @@
+﻿.CssReorderList li {
+    color: blue;
+    list-style: none;
+    margin: 2px;
+}
+
+.CssReorderList li a {
+    color: #FFF !important;
+    font-weight: bold;
+}
+
+.CssItemArea {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 1em;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.CssReorderCue {
+    border: dashed thin black;
+    height: 25px;
+    width: 100%;
+}
+
+.CssDragHandle {
+    background-color: Red;
+    border: outset thin white;
+    cursor: move;
+    height: 15px;
+    width: 100px;
+}

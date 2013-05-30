@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxControlToolkitDemos", "AjaxControlToolkitDemos\AjaxControlToolkitDemos.csproj", "{9707357C-C494-44E4-AD0C-8FA862B90928}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{412E7B6B-0858-40FC-BE06-2265B84AA622}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9707357C-C494-44E4-AD0C-8FA862B90928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9707357C-C494-44E4-AD0C-8FA862B90928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9707357C-C494-44E4-AD0C-8FA862B90928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9707357C-C494-44E4-AD0C-8FA862B90928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412E7B6B-0858-40FC-BE06-2265B84AA622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412E7B6B-0858-40FC-BE06-2265B84AA622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412E7B6B-0858-40FC-BE06-2265B84AA622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412E7B6B-0858-40FC-BE06-2265B84AA622}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
