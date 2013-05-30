@@ -9,6 +9,7 @@ Demos for [AjaxControlToolkit](http://www.asp.net/ajaxLibrary/AjaxControlToolkit
 ``` sh
 AjaxControlToolkitDemos
   AjaxControlToolkitDemos        # frontend
+    Site.Master                  # <- include ACT-ScriptManager here
     Pages                        # Demo pages
     Styles
       DemoAjaxControlToolkit.css # customized css for AjaxControlToolkit
@@ -16,3 +17,9 @@ AjaxControlToolkitDemos
   Model                          # ViewModel for frontend
   packages                       # NuGet packages (incl. AjaxControlToolkit DLL)
 ```
+
+Don't forget to add 
+`
+<ajaxToolkit:ToolkitScriptManager EnableScriptGlobalization="true" EnableScriptLocalization="true" runat="Server" EnableViewState="true"  EnablePartialRendering="true" ID="sm" CombineScripts="false" />
+`
+to the file `Site.Master` to activate the AjaxControlToolkit.
