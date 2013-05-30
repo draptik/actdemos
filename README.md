@@ -19,7 +19,13 @@ AjaxControlToolkitDemos
 ```
 
 Don't forget to add 
-`
-<ajaxToolkit:ToolkitScriptManager EnableScriptGlobalization="true" EnableScriptLocalization="true" runat="Server" EnableViewState="true"  EnablePartialRendering="true" ID="sm" CombineScripts="false" />
-`
+``` xml
+<ajaxToolkit:ToolkitScriptManager EnableScriptGlobalization="true" 
+    EnableScriptLocalization="true" 
+    runat="Server" 
+    EnableViewState="true"  
+    EnablePartialRendering="true" 
+    ID="sm" 
+    CombineScripts="false" />
+```
 to the file `Site.Master` to activate the AjaxControlToolkit.
